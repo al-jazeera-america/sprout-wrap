@@ -21,7 +21,7 @@ recipes:
 - sprout-git::git_scripts
 
 # development (rails)
-- sprout-rbenv
+# - sprout-rvm
 - sprout-ruby
 - sprout-mysql
 - sprout-postgresql
@@ -40,19 +40,19 @@ recipes:
 node_attributes:
   sprout:
     git:
-      domain: pivotallabs.com
+      domain: america.aljazeera.net
       authors:
-        - initials: ah
-          name: Abhijit Hiremagalur
-          username: abhi
-        - initials: bc
-          name: Brian Cunnie
-          username: cunnie
-        - initials: jrhb
-          name: Jonathan Barnes
-        - initials: lw
-          name: Luke Winikates
-          username: lwinikates
+        - initials: gos
+          name: Gal Steinitz
+          username: gal-at-aljazeera
+        - initials: qyp
+          name: Quintan Park
+          username: mintyquinty
+        - initials: gfs
+          name: Glenn Sidney
+          username: glennfu
+        - initials: ta
+          name: Tarik Ansari
       projects:
         -
           - sprout-wrap
@@ -81,8 +81,6 @@ node_attributes:
         - tree
         - watch
         - wget
-        - rbenv-binstubs
-        - rbenv-gem-rehash
       casks:
         - ccmenu
         - firefox
