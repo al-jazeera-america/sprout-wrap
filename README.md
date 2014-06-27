@@ -34,7 +34,9 @@ If you receive a message about the update server being unavailable and are on Ma
 
 ### 4. Install soloist & and other required gems
 
+    ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"
     \curl -sSL https://get.rvm.io | bash -s stable --ruby
+    # FIXME: at this point you need to open the same dir in a new Terminal window
     gem install bundler
     bundle
 
