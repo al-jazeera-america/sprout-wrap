@@ -21,6 +21,7 @@ recipes:
 - sprout-git::git_scripts
 
 # development (rails)
+- sprout-rvm
 - sprout-ruby
 - sprout-mysql
 - sprout-postgresql
