@@ -34,9 +34,8 @@ If you receive a message about the update server being unavailable and are on Ma
 
 ### 4. Install soloist & and other required gems
 
-If you're running under rvm or rbenv, you shouldn't preface the following commands with `sudo`.
-
-    sudo gem install bundler
+    \curl -sSL https://get.rvm.io | bash -s stable --ruby
+    gem install bundler
     bundle
 
 If you receive errors like this:
