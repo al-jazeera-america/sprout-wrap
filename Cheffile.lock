@@ -2,7 +2,16 @@ SITE
   remote: http://community.opscode.com/api/v1
   specs:
     dmg (2.2.0)
-    homebrew (1.6.6)
+    homebrew (1.7.2)
+
+GIT
+  remote: git://github.com/al-jazeera-america/sprout-rvm.git
+  ref: master
+  sha: fa48327acd96fe557ca09db6439ebf6ddd7d9731
+  specs:
+    sprout-rvm (0.1.1)
+      homebrew (>= 0.0.0)
+      sprout-base (>= 0.0.0)
 
 GIT
   remote: https://github.com/pivotal-sprout/osx
@@ -21,7 +30,7 @@ GIT
 GIT
   remote: https://github.com/pivotal-sprout/sprout-git
   ref: master
-  sha: b2bfc3a7c5e98d3ac8d35f956017e658f3741192
+  sha: 8e8307b86310051f3880e29770c74621d6014a7d
   specs:
     sprout-git (0.1.0)
       homebrew (>= 0.0.0)
@@ -30,7 +39,7 @@ GIT
 GIT
   remote: https://github.com/pivotal-sprout/sprout-homebrew
   ref: master
-  sha: 7fac1b808cb164d10d359800f103c0394f1e825b
+  sha: 16011679968e3cb66b6772f66b4a79e6f9024561
   specs:
     sprout-homebrew (0.1.0)
       homebrew (>= 1.5.4)
@@ -47,7 +56,7 @@ GIT
 GIT
   remote: https://github.com/pivotal-sprout/sprout-osx-apps
   ref: master
-  sha: 5f2bd7d64639b6affecd5951fd0b475387e6464f
+  sha: 2954cf9e112266ebe4b3c93ba818844b35ec207b
   specs:
     sprout-osx-apps (0.1.0)
       dmg (>= 0.0.0)
@@ -58,7 +67,7 @@ GIT
 GIT
   remote: https://github.com/pivotal-sprout/sprout-osx-settings
   ref: master
-  sha: a22da410f059793abd7402e950613f5fbbd58cea
+  sha: f6bdc1ce298bb8fb204f5fc19bf1d3b587bfab92
   specs:
     sprout-osx-settings (0.1.0)
       homebrew (>= 0.0.0)
@@ -77,7 +86,7 @@ GIT
 GIT
   remote: https://github.com/pivotal-sprout/sprout-rbenv
   ref: master
-  sha: 1e2e99e9642762c9c5e7e99a0fecabeba655c8ef
+  sha: debef8e115b6188dfe5c8c5cade3c04a6b31b087
   specs:
     sprout-rbenv (0.1.0)
       homebrew (>= 0.0.0)
@@ -94,7 +103,7 @@ GIT
 GIT
   remote: https://github.com/pivotal-sprout/sprout-rubymine
   ref: master
-  sha: 76255c4839c61b7e7431c27609a378a29c83254a
+  sha: 4cd6d7f504af324f0b80b5a8a5cf230d1b961f4d
   specs:
     sprout-rubymine (0.1.0)
       sprout-base (>= 0.0.0)
@@ -112,7 +121,7 @@ GIT
 GIT
   remote: https://github.com/pivotal-sprout/sprout-terminal
   ref: master
-  sha: c0d4b4311d405d7391ebb5ec30221d8dbedf0682
+  sha: a86ee1665e582a65bd5891ae72f8b33ad215f89a
   specs:
     sprout-terminal (0.1.0)
       osx (>= 0.0.0)
@@ -130,6 +139,7 @@ DEPENDENCIES
   sprout-rbenv (>= 0)
   sprout-ruby (>= 0)
   sprout-rubymine (>= 0)
+  sprout-rvm (>= 0.1.1)
   sprout-ssh (>= 0)
   sprout-terminal (>= 0)
 

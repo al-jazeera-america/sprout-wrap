@@ -41,5 +41,5 @@ cookbook 'sprout-postgresql',
 cookbook 'sprout-ssh',
   :github => 'pivotal-sprout/sprout-ssh'
   
-cookbook 'sprout-rvm',
+cookbook 'sprout-rvm', ">= 0.1.1",
   :git => 'git://github.com/al-jazeera-america/sprout-rvm.git'
