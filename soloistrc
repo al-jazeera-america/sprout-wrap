@@ -32,7 +32,7 @@ recipes:
 
 # apps (editors)
 - sprout-osx-apps::textmate_bundles
-- sprout-osx-apps::textmate_preferences
+# - sprout-osx-apps::textmate_preferences
 - sprout-osx-apps::macvim
 - sprout-rubymine
 
@@ -55,7 +55,7 @@ node_attributes:
       projects:
         -
           - sprout-wrap
-          - https://github.com/pivotal-sprout/sprout-wrap.git
+          - https://github.com/al-jazeera-america/sprout-wrap.git
     terminal:
       default_profile: 'Pro'
     settings:
