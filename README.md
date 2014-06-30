@@ -43,7 +43,13 @@ then try downgrading those errors like this:
 
 [You may want to modify your Energy Saver preferences (**System Preferences &rarr; Energy Saver &rarr; Computer Sleep &rarr; 3hrs**) because soloist usually takes 2-3 hours to complete.]
 
-    bundle exec soloist
+    sudo bundle exec soloist
+
+### If it failes and you need to re-start it, if RVM is already running:
+
+    rvm use system
+    
+to use the system ruby.
 
 ## Roadmap
 
