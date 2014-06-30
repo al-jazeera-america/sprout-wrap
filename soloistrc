@@ -25,6 +25,7 @@ recipes:
 - sprout-ruby
 - sprout-mysql
 - sprout-postgresql
+- sprout-pow
 
 # apps
 - sprout-osx-apps::iterm2
