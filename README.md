@@ -1,15 +1,9 @@
 # sprout-wrap
 
-[![Build Status](https://travis-ci.org/pivotal-sprout/sprout-wrap.png?branch=master)](https://travis-ci.org/pivotal-sprout/sprout-wrap)
-
 This project uses [soloist](https://github.com/mkocher/soloist) and [librarian-chef](https://github.com/applicationsonline/librarian-chef)
 to run a subset of the recipes in sprout's cookbooks.
 
-[Fork it](https://github.com/pivotal-sprout/sprout-wrap/fork) to 
-customize its [attributes](http://docs.opscode.com/chef_overview_attributes.html) in [soloistrc](/soloistrc) and the list of recipes 
-you'd like to use for your team. You may also want to add other cookbooks to its [Cheffile](/Cheffile), perhaps one 
-of the many [community cookbooks](http://community.opscode.com/cookbooks). By default it configures an OS X 
-Mavericks workstation for Ruby development.
+This fork is very similar to the [pivotal-labs](https://github.com/pivotal-sprout/sprout-wrap) version except that we've decided to stick with RVM instead of rbenv for now.
 
 Finally, if you've never used Chef before - we highly recommend you buy &amp; watch [this excellent 17 minute screencast](http://railscasts.com/episodes/339-chef-solo-basics) by Ryan Bates. 
 
@@ -29,15 +23,12 @@ If you receive a message about the update server being unavailable and are on Ma
 
 ### 3. Clone this project
 
-    git clone https://github.com/pivotal-sprout/sprout-wrap.git
+    git clone https://github.com/al-jazeera-america/sprout-wrap.git
     cd sprout-wrap
 
 ### 4. Install soloist & and other required gems
 
-    ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"
-    \curl -sSL https://get.rvm.io | bash -s stable --ruby
-    # FIXME: at this point you need to open the same dir in a new Terminal window
-    gem install bundler
+    sudo gem install bundler
     bundle
 
 If you receive errors like this:
