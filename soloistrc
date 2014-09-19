@@ -56,8 +56,8 @@ node_attributes:
           name: Tarik Ansari
       projects:
         -
-          - sprout-wrap
-          - https://github.com/al-jazeera-america/sprout-wrap.git
+          name: sprout-wrap
+          url: https://github.com/al-jazeera-america/sprout-wrap.git
     terminal:
       default_profile: 'Pro'
     settings:
