@@ -52,8 +52,10 @@ node_attributes:
         - initials: gfs
           name: Glenn Sidney
           username: glennfu
-        - initials: ta
-          name: Tarik Ansari
+        - initials: jf
+          name: John Ford
+        - initials: wj
+          name: Wadud Jandali
       projects:
         -
           name: sprout-wrap
